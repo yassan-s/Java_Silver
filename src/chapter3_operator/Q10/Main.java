@@ -10,6 +10,7 @@ public class Main {
 		System.out.println(a.equals(b)); //false
 		System.out.println(a.getThis()); //chapter3_operator.Q10.Sample@7344699f
 		System.out.println(b.getThis()); //chapter3_operator.Q10.Sample@6b95977
+
 	}
 
 }
