@@ -18,6 +18,13 @@ public class For {
 		//	 total = a*b;
 		// }
 		// System.out.println(total);
+
+		// コンパイルエラー カンマによる複数条件は記述できない
+		// i < 3 && j < 5 なら可能
+		// for (int i = 0, j = 2; i < 3, j < 5; i++) {
+		//	 System.out.println(i++);
+		//	 j += i;
+		// }
 	}
 //答え
 // 0
