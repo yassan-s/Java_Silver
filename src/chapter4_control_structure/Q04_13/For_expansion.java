@@ -17,6 +17,13 @@ public class For_expansion {
 			total += i;
 		}
 		System.out.println(total); // 6
-	}
 
+		String[]array2 = {"A", "B", "C"};
+		for (String str : array2) {
+			str = "D";
+		}
+		for (String str : array2) {
+			System.out.print(str);
+		}
+	}
 }
