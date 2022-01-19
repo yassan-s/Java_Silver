@@ -8,7 +8,6 @@ public class Array_string {
 		for(String str : array) {
 			System.out.print(str); // nullBC
 		}
-
 		// nullはどこも参照していないことを表す「リテラル」である
 		// なので、printで表示される
 	}

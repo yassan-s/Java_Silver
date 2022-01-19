@@ -11,5 +11,4 @@ public class Array_element {
 		System.out.println(total); // nullPointerException をスローする
 		// Itemインスタンスは生成されていないので、デフォルト値のnull
 	}
-
 }

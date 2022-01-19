@@ -29,7 +29,5 @@ public class Array_declare_format {
 		// コンパイルエラー 次元数を自動算出できない
 		int[]array10;
 		array10 = {1, 2, 3};
-
 	}
-
 }
