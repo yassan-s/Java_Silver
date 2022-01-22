@@ -12,7 +12,6 @@ public class Main {
 				System.out.println(val);
 			} while (val > 10);
 		}
-
 	}
 
 }

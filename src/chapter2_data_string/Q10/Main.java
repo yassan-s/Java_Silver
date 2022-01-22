@@ -10,10 +10,14 @@ public class Main {
 
 		String str2 = "hoge, world";
 		// エラー
-		// str2 = changeOk(str2);
-		str2 = str2.replaceAll("hoge", "hello");
+		//changeOk(str2);
+		str2.replaceAll("hoge", "hello");
 		//hello, world
 		System.out.println(str2);
+
+		String str3 = "hoge, world";
+		str3 = str3.replaceAll("hoge", "hello");
+		System.out.println(str3);
 	}
 
 	private static void changeNg(String msg) {
