@@ -1,7 +1,7 @@
 package chapter3_operator.Q10;
 
 public class Sample {
-	 private int num;
+	private int num;
 
 	public Sample(int num) {
 		this.num = num;
