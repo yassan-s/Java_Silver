@@ -14,3 +14,4 @@ public class Sample {
 		// false, true
 	}
 }
+// aとbを比べて、aが前日ならtrue
