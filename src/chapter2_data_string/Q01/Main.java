@@ -1,4 +1,4 @@
-package chapter2_data_string.Q1;
+package chapter2_data_string.Q01;
 
 public class Main {
 
