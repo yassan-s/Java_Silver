@@ -1,4 +1,4 @@
-package sukkiri;
+package sukkiri.RPG;
 
 public class Main {
 
