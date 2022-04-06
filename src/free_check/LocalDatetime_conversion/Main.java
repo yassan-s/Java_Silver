@@ -18,7 +18,7 @@ public class Main {
 		// DateTimeFormatterクラスのクラスメソッドであるofPattern()メソッドに
 		// 書式を文字列として指定し、オブジェクトを作成する
         DateTimeFormatter dtf =
-        		DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        		DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
         // format()メソッドに現在の日時オブジェクト指定し、
         // 書式にあった文字列を取得する
@@ -26,6 +26,11 @@ public class Main {
 
 	    System.out.println(strDate);
 	    System.out.println(nowTimeStr);
+
+		LocalDateTime now = LocalDateTime.now();
+		int year = now.getYear();
+		int month = now.getMonthValue();
+		System.out.println(year + ":" + month);
 	}
 
 }
