@@ -1,21 +1,21 @@
 package sukkiri.RPG;
 
+import java.util.ArrayList;
+
+import sukkiri.RPG.enemy.Monster;
+import sukkiri.RPG.enemy.Skeleton;
+import sukkiri.RPG.enemy.Slime;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("戦闘開始!");
-		System.out.print("スライムが現れた！");
-		Hero hero = new Hero();
-		suraimu sura = new suraimu();
+		ArrayList<Monster> enemyList = new ArrayList <Monster>();
 
+		enemyList.add(new Slime());
+		enemyList.add(new Skeleton());
 
-		System.out.print("勇者の攻撃！");
-		hero.attack(sura);
-		System.out.println("スライムのHPは" + sura.hp);
-
-		if (sura.hp == 0) {
-			System.out.print("勇者の勝利！");
-
+		for (Monster monster : enemyList) {
+			monster.attack();
 		}
 	}
 }
